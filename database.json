@@ -1,0 +1,19 @@
+{
+    "users": [
+        {
+            "id": 1000,
+            "username": "Pardeep Vishwakarma",
+            "email": "pardeepvishwakarma61@gmail.com",
+            "password": "Dummy@123"
+        }
+    ],
+    "userData": [
+        {
+            "userId": 1000,
+            "coverPage": {},
+            "dailyData": [
+                {}
+            ]            
+        }
+    ]
+}
