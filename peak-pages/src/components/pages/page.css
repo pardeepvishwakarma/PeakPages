@@ -1,0 +1,84 @@
+.page {
+    background-color: #ebebea;
+    max-width: 500px;
+    margin: 20px auto;
+    border-radius: 7px;
+    padding-bottom: 10px;
+
+    .page-header {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .page-date {
+        overflow: hidden;
+
+        input {
+            background-color: unset;
+            border: 0;
+            color: #000;
+            font-family: "Merienda", cursive;
+
+            &:focus {
+                border: 0;
+                outline: none !important;
+            }
+        }
+    }
+
+    .page-counter, input {
+        font-size: 20px;
+    }
+
+    .quote {
+        text-align: center;
+        font-size: 15px;
+        padding: 10px;
+
+        p {
+            margin: 0;
+            font-style: italic;
+
+            &.author {
+                font-style: normal;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .rating {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 35px 25px;
+
+        input {
+            width: 25px;
+            border: 0;
+            border-bottom: 1px solid #000;
+            background-color: transparent;
+        }
+
+        >div {
+            display: flex;
+            gap: 20px;
+        }
+    }
+}
+
+.to-do {
+    padding: 0 10px;
+}
+
+.todo-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    >div {
+        width: 100%;
+        flex-basis: 100%;
+        max-width: calc(50% - 5px);
+    }
+}
